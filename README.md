@@ -16,7 +16,7 @@ import { QbitModule } from 'nest-qbit';
         return {
           clientId: '<clientId>',
           clientSecret: '<clientSecret>',
-          baseUrl: 'https://global.service.staging.qbitnetwork.com', // 可选
+          baseUrl: 'https://global.service.staging.qbitnetwork.com', // 可选 默认正式环境
         };
       },
     }),
