@@ -7,6 +7,8 @@
 ## 注册
 
 ```js
+import { QbitModule } from 'nest-qbit';
+
 @Module({
   imports: [
     QbitModule.registerAsync({
@@ -28,6 +30,7 @@ export class AppModule {}
 ## 交互
 
 `import Qbit from 'qbit-node-sdk';`
+`import { QBIT_MANAGER } from 'nest-qbit';`
 
 `constructor(@Inject(QBIT_MANAGER) private QbitManager: Qbit) {}`
 
